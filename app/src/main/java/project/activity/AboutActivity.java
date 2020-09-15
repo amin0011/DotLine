@@ -13,7 +13,5 @@ public class AboutActivity extends EnhancedActivity {
     setContentView(R.layout.activity_about);
   }
 
-  public void amin(){
- 
-  }
+
 }
