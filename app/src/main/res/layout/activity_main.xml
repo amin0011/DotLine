@@ -1,62 +1,62 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-              android:layout_width="match_parent"
-              android:background="#05002b"
-              android:layout_height="match_parent"
-              android:gravity="center_vertical"
-              android:orientation="vertical">
-
-  <LinearLayout
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:orientation="vertical"
-    android:padding="48dip">
+    android:layout_height="match_parent"
+    android:background="#05002b"
+    android:gravity="center_vertical"
+    android:orientation="vertical">
 
-  <Button
-     android:id="@+id/btn_resume"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:layout_marginBottom="30dip"
-    android:background="#0007ca"
-    android:layout_weight="1"
-    android:text="Resume Last Game"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="48dip">
 
-  <Button
-      android:layout_marginBottom="5dp"
-    android:id="@+id/btn_singlePlayer"
-    android:background="#0007ca"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:layout_weight="1"
-    android:text="Single Player"/>
+        <Button
+            android:id="@+id/btn_resume"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dip"
+            android:layout_weight="1"
+            android:background="#0007ca"
+            android:text="Resume Last Game" />
 
-  <Button
-      android:layout_marginBottom="10px"
-    android:background="#0007ca"
-    android:id="@+id/btn_multiPlayer"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:layout_weight="1"
-    android:text="Multi Player"/>
+        <Button
+            android:id="@+id/btn_singlePlayer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_weight="1"
+            android:background="#0007ca"
+            android:text="Single Player" />
 
-  <Button
-      android:layout_marginBottom="10px"
-    android:background="#0007ca"
-    android:id="@+id/btn_options"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:layout_weight="1"
-    android:text="Options"/>
+        <Button
+            android:id="@+id/btn_multiPlayer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10px"
+            android:layout_weight="1"
+            android:background="#0007ca"
+            android:text="Multi Player" />
 
-  <Button
-    android:id="@+id/btn_about"
-    android:background="#0007ca"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:layout_marginTop="40dip"
-    android:layout_weight="1"
-    android:text="About"/>
+        <Button
+            android:id="@+id/btn_options"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10px"
+            android:layout_weight="1"
+            android:background="#0007ca"
+            android:text="Options" />
 
-  </LinearLayout>
+        <Button
+            android:id="@+id/btn_about"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dip"
+            android:layout_weight="1"
+            android:background="#0007ca"
+            android:text="About" />
+
+    </LinearLayout>
 
 </LinearLayout>
