@@ -1,0 +1,5 @@
+<resources>
+  <string name="app_name">Dot and Boxes</string>
+  <string name="playerWonGame">WON THE GAME</string>
+  <string name="gameDraw">GAME TIED</string>
+</resources>

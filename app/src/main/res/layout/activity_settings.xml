@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    android:padding="40dip">
+
+  <Switch
+      android:id="@+id/chk_enableHighPerformance"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:checked="true"
+      android:text="Enable High Performance Game"/>
+
+  <TextView
+      android:id="@+id/textView8"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginBottom="10dip"
+      android:paddingLeft="10dip"
+      android:text="High Performance Game , Will not render animations and Will save your phone power."/>
+
+  <Switch
+      android:id="@+id/chk_enableSfx"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:checked="true"
+      android:text="Enable Sound Effects"/>
+
+  <Switch
+      android:id="@+id/chk_enableMusic"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:checked="true"
+      android:text="Enable Music"/>
+
+  <TextView
+      android:id="@+id/textView9"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginBottom="10dip"
+      android:paddingLeft="10dip"
+      android:text="Volume of background music"/>
+
+  <SeekBar
+      android:id="@+id/slider_musicVolume"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginLeft="10dip"
+      android:layout_marginRight="10dip"
+      android:max="100"
+      android:min="0"
+      android:progress="80"/>
+
+</LinearLayout>

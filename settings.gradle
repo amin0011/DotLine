@@ -1,0 +1,2 @@
+rootProject.name='Dotline'
+include ':app'
