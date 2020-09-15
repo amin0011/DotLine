@@ -22,7 +22,7 @@ public class MainActivity extends EnhancedActivity {
   protected void onCreate(Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
     setContentView(R.layout.activity_main);
-    //  dsdasd
+    //amin ui
 
     requestWritePermission();
 
