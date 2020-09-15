@@ -14,7 +14,6 @@ public class AboutActivity extends EnhancedActivity {
   }
 
   public void amin(){
-    // Amin amin is
-      // amin
+ 
   }
 }
